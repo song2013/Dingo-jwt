@@ -28,4 +28,5 @@ $api->version('v1', function ($api) {
             $api->get('index', 'App\Api\Controllers\v1\IndexController@show');
         });
     });
+    
 });
